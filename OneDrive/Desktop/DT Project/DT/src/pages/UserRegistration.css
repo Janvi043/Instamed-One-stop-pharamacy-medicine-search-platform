@@ -1,0 +1,64 @@
+.user-registration-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.registration-container {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
+}
+
+.registration-card {
+  animation: slideUp 0.5s ease;
+}
+
+.registration-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.registration-icon {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.registration-header h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.registration-header p {
+  color: #666;
+  font-size: 1rem;
+}
+
+.registration-form {
+  width: 100%;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 25px;
+  color: #666;
+}
+
+@media (max-width: 576px) {
+  .registration-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .registration-icon {
+    font-size: 3rem;
+  }
+}
+

@@ -1,0 +1,42 @@
+.pharmacy-edit-medicine-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.edit-medicine-main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.stock-highlight {
+  background: #fffbeb;
+  padding: 20px;
+  border-radius: 12px;
+  border: 2px solid #fbbf24;
+}
+
+.highlight-input {
+  border-color: #fbbf24 !important;
+  background: white !important;
+}
+
+.highlight-input:focus {
+  border-color: #f59e0b !important;
+  box-shadow: 0 0 0 3px rgba(251, 191, 36, 0.2) !important;
+}
+
+@media (max-width: 768px) {
+  .form-header h2 {
+    font-size: 2rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .form-card {
+    padding: 25px;
+  }
+}
+

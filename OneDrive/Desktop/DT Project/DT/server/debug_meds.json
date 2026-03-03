@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Nicip Cold & Flu",
+    "brand": "Cipla",
+    "pharmacy": "Medpolo",
+    "stock": 10
+  },
+  {
+    "name": "Crocin Advance 500mg",
+    "brand": "GlaxoSmithKline India Pvt. Ltd.",
+    "pharmacy": "Madhura Medicals",
+    "stock": 149
+  },
+  {
+    "name": "Calpol 500 + Tablet",
+    "brand": "Glaxo SmithKline Pharmaceuticals Ltd",
+    "pharmacy": "Apollo",
+    "stock": 1000
+  }
+]

@@ -1,0 +1,214 @@
+.medicine-details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.medicine-details-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.medicine-info-section {
+  margin-bottom: 50px;
+}
+
+.medicine-header-card {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 40px;
+  margin-bottom: 25px;
+}
+
+.medicine-icon-main {
+  font-size: 6rem;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  padding: 35px;
+  border-radius: 20px;
+}
+
+.medicine-main-details h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.brand-manufacturer {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.brand-badge,
+.manufacturer-badge {
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.brand-badge {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.manufacturer-badge {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.medicine-details-card {
+  padding: 40px;
+}
+
+.detail-section {
+  margin-bottom: 35px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.detail-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.detail-section h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.detail-section p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.8;
+}
+
+.warning-text {
+  color: #e74c3c;
+  font-weight: 600;
+}
+
+.warning-section {
+  background: #fff3cd;
+  padding: 25px;
+  border-radius: 12px;
+  border: 2px solid #fbbf24;
+}
+
+.pharmacies-availability-section h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.pharmacies-list-detailed {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.pharmacy-card-detailed {
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.pharmacy-card-detailed:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pharmacy-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.pharmacy-name-distance {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pharmacy-icon-small {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.pharmacy-name-distance h4 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.distance-text {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.stock-badge-large {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.stock-badge-large.in-stock {
+  background: #d4edda;
+  color: #155724;
+}
+
+.pharmacy-contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.pharmacy-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.pharmacy-actions .btn {
+  flex: 1;
+  padding: 12px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .medicine-header-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .medicine-main-details h2 {
+    font-size: 2.5rem;
+  }
+
+  .medicine-icon-main {
+    font-size: 4rem;
+    padding: 25px;
+  }
+
+  .brand-manufacturer {
+    justify-content: center;
+  }
+
+  .pharmacies-list-detailed {
+    grid-template-columns: 1fr;
+  }
+
+  .pharmacy-actions {
+    flex-direction: column;
+  }
+}
+

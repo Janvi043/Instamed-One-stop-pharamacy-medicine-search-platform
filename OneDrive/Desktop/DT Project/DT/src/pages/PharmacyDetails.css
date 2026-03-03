@@ -1,0 +1,250 @@
+.pharmacy-details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.pharmacy-details-main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.back-button {
+  background: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #667eea;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: all 0.3s ease;
+}
+
+.back-button:hover {
+  background: #667eea;
+  color: white;
+  transform: translateX(-5px);
+}
+
+.pharmacy-info-card {
+  padding: 40px;
+  margin-bottom: 30px;
+}
+
+.pharmacy-header-main {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  margin-bottom: 30px;
+  padding-bottom: 25px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.pharmacy-icon-large {
+  font-size: 5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.pharmacy-main-info h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.status-badge.open {
+  background: #d4edda;
+  color: #155724;
+}
+
+.status-badge.closed {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.distance-info {
+  font-size: 1.1rem;
+  color: #666;
+  margin-top: 5px;
+}
+
+.pharmacy-contact-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.contact-row .icon {
+  font-size: 1.3rem;
+}
+
+.contact-row a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-row a:hover {
+  text-decoration: underline;
+}
+
+.directions-btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.1rem;
+}
+
+.search-medicine-section {
+  padding: 40px;
+}
+
+.search-medicine-section h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.search-medicine-section > p {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.pharmacy-search-form {
+  margin-bottom: 30px;
+}
+
+.search-type-tabs {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 12px 25px;
+  border: 2px solid #e0e0e0;
+  background: white;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+}
+
+.tab-button:hover {
+  border-color: #667eea;
+}
+
+.search-results-section {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 2px solid #f0f0f0;
+}
+
+.search-results-section h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.medicines-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.medicine-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.medicine-item:hover {
+  transform: translateX(5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.medicine-icon-small {
+  font-size: 2rem;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.medicine-details {
+  flex: 1;
+}
+
+.medicine-details h5 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.medicine-details .brand {
+  color: #667eea;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.medicine-details .purposes {
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.no-results {
+  text-align: center;
+  color: #666;
+  padding: 40px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .pharmacy-header-main {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .pharmacy-main-info h2 {
+    font-size: 2rem;
+  }
+
+  .search-type-tabs {
+    flex-direction: column;
+  }
+
+  .medicine-item {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+

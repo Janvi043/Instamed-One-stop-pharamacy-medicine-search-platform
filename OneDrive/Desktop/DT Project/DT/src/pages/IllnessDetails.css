@@ -1,0 +1,145 @@
+.illness-details-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.illness-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.illness-header-card {
+  text-align: center;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+
+.illness-icon-large {
+  font-size: 6rem;
+  margin-bottom: 20px;
+  padding: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.illness-header-card h2 {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.illness-header-card p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.medicines-section h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.medicines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.medicine-card-detailed {
+  padding: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.medicine-card-detailed:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.medicine-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.medicine-card-detailed .medicine-icon {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.medicine-name-section h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.brand-info {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.medicine-manufacturer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 12px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.medicine-manufacturer .label {
+  color: #666;
+  font-weight: 600;
+}
+
+.medicine-manufacturer .value {
+  color: #333;
+  font-weight: 700;
+}
+
+.side-effects-section {
+  margin-bottom: 25px;
+}
+
+.side-effects-section .label {
+  display: block;
+  color: #e74c3c;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.side-effects-text {
+  color: #666;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.view-details-btn {
+  width: 100%;
+  padding: 12px;
+}
+
+@media (max-width: 768px) {
+  .illness-header-card h2 {
+    font-size: 2.5rem;
+  }
+
+  .illness-icon-large {
+    font-size: 4rem;
+    padding: 20px;
+  }
+
+  .medicines-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

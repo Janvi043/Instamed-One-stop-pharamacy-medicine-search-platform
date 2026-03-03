@@ -1,0 +1,171 @@
+.search-results-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.search-main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 30px;
+}
+
+.search-section-top {
+  margin-bottom: 30px;
+}
+
+.search-section-top h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 25px;
+}
+
+.results-info {
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.results-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.loading-text,
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 1.1rem;
+  color: #666;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card {
+  padding: 30px;
+  transition: all 0.3s ease;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pharmacy-header-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.pharmacy-name-section {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pharmacy-icon {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.pharmacy-name-section h3 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.distance {
+  color: #666;
+  font-size: 1rem;
+}
+
+.stock-info .stock-badge {
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  background: #d4edda;
+  color: #155724;
+}
+
+.stock-info .stock-badge.out-of-stock {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+.medicine-info-section {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 12px;
+}
+
+.medicine-info-section h4 {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.brand-name {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.pharmacy-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 25px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #666;
+}
+
+.contact-item .icon {
+  font-size: 1.2rem;
+}
+
+.contact-item a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
+
+.result-card .action-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.result-card .action-buttons .btn {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .search-section-top h2 {
+    font-size: 2rem;
+  }
+
+  .pharmacy-header-info {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .result-card .action-buttons {
+    flex-direction: column;
+  }
+}
+
